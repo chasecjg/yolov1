@@ -1,4 +1,6 @@
-# Previews
+[[_TOC_]]
+
+## 前言
 
 * 使用的`pytorch`版本为`1.10`
 
@@ -11,10 +13,10 @@
 * 权重下载地址：`google drive`: [[link]](https://drive.google.com/file/d/1hdtk2rnp2BFIQQDhXZpM8IDBS3eUqeby/view?usp=sharing)，百度网盘：[[链接]](https://pan.baidu.com/s/1EHoic_cfUyrNmsoyUaM6EA) 提取码: yolo 
 
 
+## 开始
+### 训练
 
-# 一.训练
-
-## 1.1. 使用VOC2007数据集训练步骤
+#### 1.1. 使用VOC2007数据集训练步骤
 
 1. 下载数据集放入文件夹中
 
@@ -22,7 +24,7 @@
 
 3. 运行`train.py`开始训练
 
-## 1.2. 使用自己的训练集训练
+#### 1.2. 使用自己的训练集训练
 
 1. 将`xml`文件放入`\VOCdevkit\VOC2007\Annotations`
 
@@ -37,7 +39,7 @@
 6. 运行`train.py`开始训练
 
 
-## 二. 测试
+### 测试
 
 1. 测试文件为`predict.py`
 
